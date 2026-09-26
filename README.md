@@ -69,10 +69,15 @@ Using parallelized Numba (`@nb.jit(parallel=True)`), the engine benchmarks risk-
 Install dependencies:
 ```bash
 pip install numpy pandas scipy numba statsmodels matplotlib joblib tqdm
+```
 
 Clone the repesitory:
+```bash
 git clone [https://github.com/](https://github.com/)<Lucille865>/<QIS-framework-for-cash-equities>.git
 cd <QIS-framework-for-cash-equities>
+```
 
 Launch the demonstration notebook:
+```bash
 jupyter notebook "QIS_Cash_Equities_Demo.ipynb"
+```
